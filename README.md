@@ -40,3 +40,13 @@
 
 ### 주차별 코드
 
+<br>
+
+***1주차***
+
+1️⃣ 백준 1427번 **소트인사이드**
+
+2️⃣ 백준 10989번 **수 정렬하기 3**
+
+3️⃣ 프로그래머스 2018 KAKAO BLIND RECRUITMENT **[비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)**
+
