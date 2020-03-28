@@ -46,11 +46,11 @@
 
 1️⃣ 백준 1427번 **[소트인사이드](https://www.acmicpc.net/problem/1427)**
 
-> 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/tree/master/백준 1427번 MergeSort)
+> 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/tree/master/%EB%B0%B1%EC%A4%80%201427%EB%B2%88%20MergeSort)
 
 2️⃣ 백준 10989번 **[수 정렬하기 3](https://www.acmicpc.net/problem/10989)**
 
-> 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/tree/master/백준 10989번 CountingSort)
+> 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/tree/master/%EB%B0%B1%EC%A4%80%2010989%EB%B2%88%20CountingSort)
 
 3️⃣ 프로그래머스 2018 KAKAO BLIND RECRUITMENT **[비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)**
 
