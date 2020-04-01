@@ -26,7 +26,9 @@
 
 📒**버블정렬(Bubble Sort) 예제**
 
-![Screen Shot 2020-04-01 at 3.14.26 PM](/Users/kim-yuna/Library/Application Support/typora-user-images/Screen Shot 2020-04-01 at 3.14.26 PM.png)
+![img](https://gmlwjd9405.github.io/images/algorithm-bubble-sort/bubble-sort.png)
+
+
 
 
 
