@@ -54,3 +54,11 @@
 
 3️⃣ 프로그래머스 2018 KAKAO BLIND RECRUITMENT **[비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)**
 
+
+***2주차***
+
+1️⃣ 백준 10828번 **[스택](https://www.acmicpc.net/problem/10828)**
+
+2️⃣ 백준 10845번 **[큐](https://www.acmicpc.net/problem/10845)**
+
+
