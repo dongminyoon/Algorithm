@@ -64,14 +64,20 @@
 1️⃣ 백준 10828번 **[스택](https://www.acmicpc.net/problem/10828)**
 
 > 동민 풀이 👉 [클릭]()
+>
+> 유나 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%EA%B9%80%EC%9C%A0%EB%82%98/%EB%B0%B1%EC%A4%8010828_Stack/baekjoon10828.java)
 
 2️⃣ 백준 10845번 **[큐](https://www.acmicpc.net/problem/10845)**
 
 > 동민 풀이 👉 [클릭]()
-
-3️⃣ 프로그래머스 2018 KAKAO BLIND RECRUITMENT **[다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682)**
+>
+> 유나 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%EA%B9%80%EC%9C%A0%EB%82%98/%EB%B0%B1%EC%A4%8010845_Queue/baekjoon10845.java)
+>
+> 3️⃣ 프로그래머스 2018 KAKAO BLIND RECRUITMENT **[다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682)**
 
 > 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/tree/master/%EC%9C%A4%EB%8F%99%EB%AF%BC/2018%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EB%B8%94%EB%9D%BC%EC%9D%B8%EB%93%9C%20%EB%8B%A4%ED%8A%B8%EA%B2%8C%EC%9E%84/KakaoBlindDartGame)
+>
+> 유나풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%EA%B9%80%EC%9C%A0%EB%82%98/%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EB%B8%94%EB%9D%BC%EC%9D%B8%EB%93%9C%202018_%EB%8B%A4%ED%8A%B8%EA%B2%8C%EC%9E%84/dartgame.java)
 
 ***3주차***
 
