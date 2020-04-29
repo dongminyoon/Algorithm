@@ -48,7 +48,7 @@
 
 > 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/tree/master/%EB%B0%B1%EC%A4%80%201427%EB%B2%88%20MergeSort)
 >
-> 유나 풀이 👉 [클릭][https://github.com/dongminyoon/Algorithm/tree/master/%EA%B9%80%EC%9C%A0%EB%82%98)
+> 유나 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/tree/master/%EA%B9%80%EC%9C%A0%EB%82%98)
 
 2️⃣ 백준 10989번 **[수 정렬하기 3](https://www.acmicpc.net/problem/10989)**
 
