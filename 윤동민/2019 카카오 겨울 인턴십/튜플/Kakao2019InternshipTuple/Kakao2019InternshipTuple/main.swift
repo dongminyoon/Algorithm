@@ -11,7 +11,7 @@ import Foundation
 func solution(_ s:String) -> [Int] {
     let tuplePattern = "\\{\\d+(,\\d+)*\\}"
     let matchTuples = extractTuple(s, tuplePattern).sorted { $0.endIndex < $1.endIndex }
-    
+
     let digitPattern = "\\d+"
     var totalTuple: [Int] = []
     
