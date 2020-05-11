@@ -11,7 +11,7 @@ import Foundation
 func solution(_ p:String) -> String {
     if p == "" { return p }
     
-    check(p)
+    
     return ""
 }
 
@@ -20,12 +20,17 @@ func check(_ checked: String) -> Bool {
     
     for index in 0..<checked.count {
         let stringIndex = checked.index(checked.startIndex, offsetBy: index)
+        // "("가 들어오는 경우 Stack에 추가
         if checked[stringIndex] == "(" { stack.append(String(checked[stringIndex])) }
+        else {
+            if !stack.isEmpty { stack.removeLast() }
+            else { return false }
+        }
     }
     
-    print(stack)
-    return true
+    if stack.isEmpty { return true }
+    else { return false }
 }
 
 
-solution("(()())()")
+solution("()))((()")

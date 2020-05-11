@@ -13,9 +13,7 @@ public class main {
         for(int i = 0; i < orderCount; i++) {
             order[i] = br.readLine();
         }
-
         main.excuteOrders(order);
-
     }
 
     static void excuteOrders(String[] orders) {
