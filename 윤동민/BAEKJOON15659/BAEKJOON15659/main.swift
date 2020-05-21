@@ -40,7 +40,8 @@ func main() {
 func dfs(operands: [Int], operators: [Int], currentExpression: [String]) {
     // 여기서 계산하는 로직 추가
     if operands.isEmpty {
-        calculator(currentExpression)
+        let result = calculator(makePostfix(currentExpression))
+        results.append(result)
         return
     }
     
@@ -69,34 +70,60 @@ func dfs(operands: [Int], operators: [Int], currentExpression: [String]) {
     }
 }
 
-func calculator(_ experssion: [String]) -> Int {
+func makePostfix(_ experssion: [String]) -> [String] {
     var stack: [String] = []
     var result: [String] = []
     
-    
-    // 이 부분을 아예 수정해야한다.
     for each in experssion {
         if let operand = Int(each) { result.append("\(operand)") }
         else {
-            if each == "+" || each == "-" { stack.append(each) }
-            else { result.append(each) }
+            if stack.isEmpty {
+                stack.append(each)
+                continue
+            }
+            
+            if each == "+" || each == "-" {
+                result.append(stack.removeLast())
+                if !stack.isEmpty { result.append(stack.removeLast()) }
+                stack.append(each)
+            } else {
+                if stack[stack.count-1] == "+" || stack[stack.count-1] == "-" { stack.append(each) }
+                else {
+                    result.append(stack.removeLast())
+                    stack.append(each)
+                }
+            }
         }
     }
+    for _ in 0..<stack.count { result.append(stack.removeLast()) }
+    return result
+}
+
+func calculator(_ expression: [String]) -> Int {
+    var stack: [Int] = []
     
-    for each in (0..<stack.count).reversed() {
-        
+    for each in expression {
+        if let operand = Int(each) { stack.append(operand) }
+        else {
+            let secondOperand = stack.removeLast()
+            let firstOperand = stack.removeLast()
+            if each == "+" { stack.append(firstOperand + secondOperand) }
+            else if each == "-" { stack.append(firstOperand - secondOperand) }
+            else if each == "*" { stack.append(firstOperand * secondOperand) }
+            else { stack.append(firstOperand / secondOperand) }
+        }
     }
-    for each in stack { result.append(each) }
-    
-    print(result)
-    
-    var calculatorStack: [Int] = []
-    for each in result {
-        
-    }
-    
-    return 10
+    return stack.removeLast()
 }
 
 main()
+results = results.sorted(by: <)
+
+if results.count == 1 {
+    print(results[0])
+    print(results[0])
+} else {
+    print(results[results.count-1])
+    print(results[0])
+}
 
