@@ -19,7 +19,10 @@ public class main {
 
             for(int i = 0; i < k; i++) { System.out.println(sample[i] + " "); }
         } while (true);
+
+        System.out.println("aa");
     }
+
 
     static void dfs(int n) {
 
