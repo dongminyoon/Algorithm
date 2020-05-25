@@ -87,7 +87,9 @@
 
 2️⃣ 백준 6603번 **[로또](https://www.acmicpc.net/problem/6603)**
 
+>동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB/BAEKJOON6603/src/main.java)
 >
+>유나 풀이 👉
 
 3️⃣ 프로그래머스 2018 KAKAO BLIND RECRUITMENT **[프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)**
 
