@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D16A45224938D33005E691E /* OpenChatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D16A45124938D33005E691E /* OpenChatting.swift */; };
+		9D57C85424939B890082A2FD /* StringProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85124939B890082A2FD /* StringProblem.swift */; };
+		9D57C85524939B890082A2FD /* BlindBlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85224939B890082A2FD /* BlindBlink.swift */; };
+		9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */; };
+		9D57C85A24939BC00082A2FD /* NewsClustring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85924939BC00082A2FD /* NewsClustring.swift */; };
 		9DA8042D248E27EA003826B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8042C248E27EA003826B9 /* main.swift */; };
-		9DA80438248E2878003826B9 /* NewsClustring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80437248E2878003826B9 /* NewsClustring.swift */; };
-		9DA8043A248E28E0003826B9 /* FriendsFourBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80439248E28E0003826B9 /* FriendsFourBlock.swift */; };
 		9DA8043C248E2A0D003826B9 /* IllegalUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8043B248E2A0D003826B9 /* IllegalUser.swift */; };
 		9DA8043E248E2A93003826B9 /* PickDoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8043D248E2A93003826B9 /* PickDoll.swift */; };
 		9DA80440248E2AC0003826B9 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8043F248E2AC0003826B9 /* Tuple.swift */; };
 		9DA80442248E2AE0003826B9 /* HotelRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80441248E2AE0003826B9 /* HotelRoom.swift */; };
-		9DA80444248E2B55003826B9 /* BlindBlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80443248E2B55003826B9 /* BlindBlink.swift */; };
-		9DA80446248E2B7E003826B9 /* StringProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80445248E2B7E003826B9 /* StringProblem.swift */; };
 		9DA80448248E2BCA003826B9 /* BAEKJOON1260.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80447248E2BCA003826B9 /* BAEKJOON1260.swift */; };
 		9DA8044A248E2C6E003826B9 /* BAEKJOON15659.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80449248E2C6E003826B9 /* BAEKJOON15659.swift */; };
 		9DA8044C248E2D1C003826B9 /* BAEKJOON1759.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8044B248E2D1B003826B9 /* BAEKJOON1759.swift */; };
@@ -37,16 +38,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D16A45124938D33005E691E /* OpenChatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenChatting.swift; sourceTree = "<group>"; };
+		9D57C85124939B890082A2FD /* StringProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringProblem.swift; path = "Algorithm/2020 카카오 블라인드/StringProblem.swift"; sourceTree = SOURCE_ROOT; };
+		9D57C85224939B890082A2FD /* BlindBlink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlindBlink.swift; path = "Algorithm/2020 카카오 블라인드/BlindBlink.swift"; sourceTree = SOURCE_ROOT; };
+		9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsFourBlock.swift; path = "Algorithm/2018 카카오 블라인드/FriendsFourBlock.swift"; sourceTree = SOURCE_ROOT; };
+		9D57C85924939BC00082A2FD /* NewsClustring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsClustring.swift; sourceTree = "<group>"; };
 		9DA80429248E27EA003826B9 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA8042C248E27EA003826B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9DA80437248E2878003826B9 /* NewsClustring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsClustring.swift; sourceTree = "<group>"; };
-		9DA80439248E28E0003826B9 /* FriendsFourBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsFourBlock.swift; sourceTree = "<group>"; };
 		9DA8043B248E2A0D003826B9 /* IllegalUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllegalUser.swift; sourceTree = "<group>"; };
 		9DA8043D248E2A93003826B9 /* PickDoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDoll.swift; sourceTree = "<group>"; };
 		9DA8043F248E2AC0003826B9 /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
 		9DA80441248E2AE0003826B9 /* HotelRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelRoom.swift; sourceTree = "<group>"; };
-		9DA80443248E2B55003826B9 /* BlindBlink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindBlink.swift; sourceTree = "<group>"; };
-		9DA80445248E2B7E003826B9 /* StringProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProblem.swift; sourceTree = "<group>"; };
 		9DA80447248E2BCA003826B9 /* BAEKJOON1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON1260.swift; sourceTree = "<group>"; };
 		9DA80449248E2C6E003826B9 /* BAEKJOON15659.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON15659.swift; sourceTree = "<group>"; };
 		9DA8044B248E2D1B003826B9 /* BAEKJOON1759.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON1759.swift; sourceTree = "<group>"; };
@@ -66,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D16A45024938D1E005E691E /* 2019 카카오 블라인드 */ = {
+			isa = PBXGroup;
+			children = (
+				9D16A45124938D33005E691E /* OpenChatting.swift */,
+			);
+			name = "2019 카카오 블라인드";
+			path = "2019 카카오 블라인드";
+			sourceTree = "<group>";
+		};
 		9DA80420248E27EA003826B9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,7 @@
 		9DA8042B248E27EA003826B9 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				9D16A45024938D1E005E691E /* 2019 카카오 블라인드 */,
 				9DA80436248E2836003826B9 /* BAEKJOON */,
 				9DA80435248E282A003826B9 /* 2018 카카오 블라인드 */,
 				9DA80434248E2814003826B9 /* 2019 카카오 겨울 인턴십 */,
@@ -97,8 +109,9 @@
 		9DA80433248E2802003826B9 /* 2020 카카오 블라인드 */ = {
 			isa = PBXGroup;
 			children = (
-				9DA80443248E2B55003826B9 /* BlindBlink.swift */,
-				9DA80445248E2B7E003826B9 /* StringProblem.swift */,
+				9D57C85224939B890082A2FD /* BlindBlink.swift */,
+				9D57C85924939BC00082A2FD /* NewsClustring.swift */,
+				9D57C85124939B890082A2FD /* StringProblem.swift */,
 			);
 			name = "2020 카카오 블라인드";
 			path = "카카오2018블라인드";
@@ -119,8 +132,7 @@
 		9DA80435248E282A003826B9 /* 2018 카카오 블라인드 */ = {
 			isa = PBXGroup;
 			children = (
-				9DA80437248E2878003826B9 /* NewsClustring.swift */,
-				9DA80439248E28E0003826B9 /* FriendsFourBlock.swift */,
+				9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */,
 			);
 			name = "2018 카카오 블라인드";
 			path = "2020 카카오 블라인드";
@@ -197,20 +209,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA8043A248E28E0003826B9 /* FriendsFourBlock.swift in Sources */,
+				9D16A45224938D33005E691E /* OpenChatting.swift in Sources */,
 				9DA8043C248E2A0D003826B9 /* IllegalUser.swift in Sources */,
-				9DA80446248E2B7E003826B9 /* StringProblem.swift in Sources */,
+				9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */,
+				9D57C85A24939BC00082A2FD /* NewsClustring.swift in Sources */,
 				9DA80452248E2D8F003826B9 /* BAEKJOON11724.swift in Sources */,
 				9DA8043E248E2A93003826B9 /* PickDoll.swift in Sources */,
 				9DA80442248E2AE0003826B9 /* HotelRoom.swift in Sources */,
-				9DA80444248E2B55003826B9 /* BlindBlink.swift in Sources */,
 				9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */,
 				9DA8044A248E2C6E003826B9 /* BAEKJOON15659.swift in Sources */,
-				9DA80438248E2878003826B9 /* NewsClustring.swift in Sources */,
 				9DA8044C248E2D1C003826B9 /* BAEKJOON1759.swift in Sources */,
+				9D57C85524939B890082A2FD /* BlindBlink.swift in Sources */,
 				9DA80448248E2BCA003826B9 /* BAEKJOON1260.swift in Sources */,
 				9DA80440248E2AC0003826B9 /* Tuple.swift in Sources */,
 				9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */,
+				9D57C85424939B890082A2FD /* StringProblem.swift in Sources */,
 				9DA8042D248E27EA003826B9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
