@@ -12,6 +12,7 @@
 		9D57C85524939B890082A2FD /* BlindBlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85224939B890082A2FD /* BlindBlink.swift */; };
 		9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */; };
 		9D57C85A24939BC00082A2FD /* NewsClustring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85924939BC00082A2FD /* NewsClustring.swift */; };
+		9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74F41624940B5700F5C757 /* FalilPercentage.swift */; };
 		9DA8042D248E27EA003826B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8042C248E27EA003826B9 /* main.swift */; };
 		9DA8043C248E2A0D003826B9 /* IllegalUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8043B248E2A0D003826B9 /* IllegalUser.swift */; };
 		9DA8043E248E2A93003826B9 /* PickDoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8043D248E2A93003826B9 /* PickDoll.swift */; };
@@ -23,6 +24,7 @@
 		9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8044D248E2D48003826B9 /* BAEKJOON2178.swift */; };
 		9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */; };
 		9DA80452248E2D8F003826B9 /* BAEKJOON11724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */; };
+		9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD329EE2495BB5600E19669 /* CandidateKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,7 @@
 		9D57C85224939B890082A2FD /* BlindBlink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlindBlink.swift; path = "Algorithm/2020 카카오 블라인드/BlindBlink.swift"; sourceTree = SOURCE_ROOT; };
 		9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsFourBlock.swift; path = "Algorithm/2018 카카오 블라인드/FriendsFourBlock.swift"; sourceTree = SOURCE_ROOT; };
 		9D57C85924939BC00082A2FD /* NewsClustring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsClustring.swift; sourceTree = "<group>"; };
+		9D74F41624940B5700F5C757 /* FalilPercentage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalilPercentage.swift; sourceTree = "<group>"; };
 		9DA80429248E27EA003826B9 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA8042C248E27EA003826B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9DA8043B248E2A0D003826B9 /* IllegalUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllegalUser.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		9DA8044D248E2D48003826B9 /* BAEKJOON2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2178.swift; sourceTree = "<group>"; };
 		9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2309.swift; sourceTree = "<group>"; };
 		9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON11724.swift; sourceTree = "<group>"; };
+		9DD329EE2495BB5600E19669 /* CandidateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				9D16A45124938D33005E691E /* OpenChatting.swift */,
+				9D74F41624940B5700F5C757 /* FalilPercentage.swift */,
+				9DD329EE2495BB5600E19669 /* CandidateKey.swift */,
 			);
 			name = "2019 카카오 블라인드";
 			path = "2019 카카오 블라인드";
@@ -219,8 +225,10 @@
 				9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */,
 				9DA8044A248E2C6E003826B9 /* BAEKJOON15659.swift in Sources */,
 				9DA8044C248E2D1C003826B9 /* BAEKJOON1759.swift in Sources */,
+				9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */,
 				9D57C85524939B890082A2FD /* BlindBlink.swift in Sources */,
 				9DA80448248E2BCA003826B9 /* BAEKJOON1260.swift in Sources */,
+				9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */,
 				9DA80440248E2AC0003826B9 /* Tuple.swift in Sources */,
 				9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */,
 				9D57C85424939B890082A2FD /* StringProblem.swift in Sources */,
