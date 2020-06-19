@@ -8,6 +8,6 @@
 
 import Foundation
 
-let result = CandidateKey.solution([["100","ryan","music","2"],["200","apeach","math","2"],["300","tube","computer","3"],["400","con","computer","4"],["500","muzi","music","3"],["600","apeach","music","2"]])
+let result = SearchPath.solution([[5,3],[11,5],[13,3],[3,5],[6,1],[1,3],[8,6],[7,2],[2,2]])
 
 print(result)
