@@ -26,6 +26,7 @@
 		9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */; };
 		9DA80452248E2D8F003826B9 /* BAEKJOON11724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */; };
 		9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD329EE2495BB5600E19669 /* CandidateKey.swift */; };
+		9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,7 @@
 		9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2309.swift; sourceTree = "<group>"; };
 		9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON11724.swift; sourceTree = "<group>"; };
 		9DD329EE2495BB5600E19669 /* CandidateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateKey.swift; sourceTree = "<group>"; };
+		9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9D74F41624940B5700F5C757 /* FalilPercentage.swift */,
 				9DD329EE2495BB5600E19669 /* CandidateKey.swift */,
 				9D9676B9249BB98A0042BF0A /* SearchPath.swift */,
+				9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */,
 			);
 			name = "2019 카카오 블라인드";
 			path = "2019 카카오 블라인드";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D16A45224938D33005E691E /* OpenChatting.swift in Sources */,
+				9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */,
 				9DA8043C248E2A0D003826B9 /* IllegalUser.swift in Sources */,
 				9D9676BA249BB98A0042BF0A /* SearchPath.swift in Sources */,
 				9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */,
