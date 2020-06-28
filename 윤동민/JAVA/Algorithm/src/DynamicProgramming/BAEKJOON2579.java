@@ -14,30 +14,29 @@ public class BAEKJOON2579 {
 
         n = Integer.parseInt(br.readLine());
         points = new int[n+1];
+        total = new int[n+1];
 
         for(int i = 1; i < n+1; i++) { points[i] = Integer.parseInt(br.readLine()); }
 
-    }
-
-    static void dfs(int currentStair, int continueCount) {
-        if (currentStair == 0) { return; }
-
-        if (currentStair-1)
-
-        // 2개의 칸을 이미 연속으로 밟은 경우
-        if (continueCount == 2 && currentStair-2 < 0) {
-            total[currentStair-2] = total[currentStair] + points[currentStair-2];
-            dfs(currentStair-2, 0);
-        } else if (points[currentStair-1] > points[currentStair-2]) {
-
+        if (n == 1) {
+            System.out.println(points[n]);
+            return;
+        } else if (n == 2) {
+            System.out.println(points[n] + points[n-1]);
+            return;
+        } else if (n == 3) {
+            System.out.println(Math.max(points[1] + points[3], points[2] + points[3]));
+            return;
         }
 
+        total[1] = points[1];
+        total[2] = points[1] + points[2];
+        total[3] = Math.max(points[1] + points[3], points[2] + points[3]);
 
+        for(int i = 4; i < n+1; i++) {
+            total[i] = Math.max(total[i-3] + points[i-1] + points[i], total[i-2] + points[i]);
+        }
 
-
-
-        continueCount += 1;
-
-
+        System.out.println(total[n]);
     }
 }
