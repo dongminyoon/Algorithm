@@ -10,6 +10,6 @@ import Foundation
 
 struct FoodLive {
     static func solution(_ food_times:[Int], _ k:Int64) -> Int {
-        return 0
+        return -1
     }
 }
