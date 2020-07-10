@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D16A45224938D33005E691E /* OpenChatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D16A45124938D33005E691E /* OpenChatting.swift */; };
+		9D2598D324B7602C00E17711 /* BlockGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2598D224B7602C00E17711 /* BlockGame.swift */; };
 		9D57C85424939B890082A2FD /* StringProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85124939B890082A2FD /* StringProblem.swift */; };
 		9D57C85524939B890082A2FD /* BlindBlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85224939B890082A2FD /* BlindBlink.swift */; };
 		9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		9D16A45124938D33005E691E /* OpenChatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenChatting.swift; sourceTree = "<group>"; };
+		9D2598D224B7602C00E17711 /* BlockGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockGame.swift; sourceTree = "<group>"; };
 		9D57C85124939B890082A2FD /* StringProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringProblem.swift; path = "Algorithm/2020 카카오 블라인드/StringProblem.swift"; sourceTree = SOURCE_ROOT; };
 		9D57C85224939B890082A2FD /* BlindBlink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlindBlink.swift; path = "Algorithm/2020 카카오 블라인드/BlindBlink.swift"; sourceTree = SOURCE_ROOT; };
 		9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsFourBlock.swift; path = "Algorithm/2018 카카오 블라인드/FriendsFourBlock.swift"; sourceTree = SOURCE_ROOT; };
@@ -86,6 +88,7 @@
 				9DD329EE2495BB5600E19669 /* CandidateKey.swift */,
 				9D9676B9249BB98A0042BF0A /* SearchPath.swift */,
 				9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */,
+				9D2598D224B7602C00E17711 /* BlockGame.swift */,
 			);
 			name = "2019 카카오 블라인드";
 			path = "2019 카카오 블라인드";
@@ -252,6 +255,7 @@
 				9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */,
 				9DA80440248E2AC0003826B9 /* Tuple.swift in Sources */,
 				9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */,
+				9D2598D324B7602C00E17711 /* BlockGame.swift in Sources */,
 				9D57C85424939B890082A2FD /* StringProblem.swift in Sources */,
 				9DA8042D248E27EA003826B9 /* main.swift in Sources */,
 			);
