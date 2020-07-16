@@ -15,6 +15,8 @@
 		9D57C85A24939BC00082A2FD /* NewsClustring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85924939BC00082A2FD /* NewsClustring.swift */; };
 		9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74F41624940B5700F5C757 /* FalilPercentage.swift */; };
 		9D8574CC24B31CAD009BA1FA /* BoostCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8574CB24B31CAD009BA1FA /* BoostCamp.swift */; };
+		9D94BDF524C054ED0027B9BF /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94BDF424C054ED0027B9BF /* Problem1.swift */; };
+		9D94BE0A24C06AEA0027B9BF /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94BE0924C06AEA0027B9BF /* Problem2.swift */; };
 		9D9676BA249BB98A0042BF0A /* SearchPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9676B9249BB98A0042BF0A /* SearchPath.swift */; };
 		9D9CA09624B9ECC700B50A80 /* KeyAndLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9CA09524B9ECC700B50A80 /* KeyAndLock.swift */; };
 		9DA8042D248E27EA003826B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8042C248E27EA003826B9 /* main.swift */; };
@@ -53,6 +55,8 @@
 		9D57C85924939BC00082A2FD /* NewsClustring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsClustring.swift; sourceTree = "<group>"; };
 		9D74F41624940B5700F5C757 /* FalilPercentage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalilPercentage.swift; sourceTree = "<group>"; };
 		9D8574CB24B31CAD009BA1FA /* BoostCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostCamp.swift; sourceTree = "<group>"; };
+		9D94BDF424C054ED0027B9BF /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
+		9D94BE0924C06AEA0027B9BF /* Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
 		9D9676B9249BB98A0042BF0A /* SearchPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPath.swift; sourceTree = "<group>"; };
 		9D9CA09524B9ECC700B50A80 /* KeyAndLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyAndLock.swift; sourceTree = "<group>"; };
 		9DA80429248E27EA003826B9 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,16 @@
 			path = "부스트캠프 코딩테스트";
 			sourceTree = "<group>";
 		};
+		9D94BDF324C054D90027B9BF /* 2020 카카오 코드스쿼드 전형 */ = {
+			isa = PBXGroup;
+			children = (
+				9D94BDF424C054ED0027B9BF /* Problem1.swift */,
+				9D94BE0924C06AEA0027B9BF /* Problem2.swift */,
+			);
+			name = "2020 카카오 코드스쿼드 전형";
+			path = "2020 카카오 코드스쿼드 전형";
+			sourceTree = "<group>";
+		};
 		9DA80420248E27EA003826B9 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +138,7 @@
 		9DA8042B248E27EA003826B9 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				9D94BDF324C054D90027B9BF /* 2020 카카오 코드스쿼드 전형 */,
 				9D8574CA24B31C48009BA1FA /* 부스트캠프 코딩테스트 */,
 				9D16A45024938D1E005E691E /* 2019 카카오 블라인드 */,
 				9DA80436248E2836003826B9 /* BAEKJOON */,
@@ -240,8 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D16A45224938D33005E691E /* OpenChatting.swift in Sources */,
+				9D94BE0A24C06AEA0027B9BF /* Problem2.swift in Sources */,
 				9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */,
 				9DA8043C248E2A0D003826B9 /* IllegalUser.swift in Sources */,
+				9D94BDF524C054ED0027B9BF /* Problem1.swift in Sources */,
 				9D9CA09624B9ECC700B50A80 /* KeyAndLock.swift in Sources */,
 				9D9676BA249BB98A0042BF0A /* SearchPath.swift in Sources */,
 				9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */,

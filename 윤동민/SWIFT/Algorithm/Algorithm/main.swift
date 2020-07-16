@@ -8,6 +8,6 @@
 
 import Foundation
 
-let result = FoodLive.solution([3, 1, 2], 5)
+let result = Problem1.solution()
 
 print(result)
