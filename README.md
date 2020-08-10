@@ -101,9 +101,25 @@
 >
 > 유나 풀이 👉🏻 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%EA%B9%80%EC%9C%A0%EB%82%98/%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EB%B8%94%EB%9D%BC%EC%9D%B8%EB%93%9C%202018_%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D/friends4block.java)
 
+***4주차 (2020.08.10 ~ 2020.08.17)*** 
 
+1️⃣ 백준 2206번 벽부수고 이동하기 [BFS](https://www.acmicpc.net/problem/2206)
 
+> 동민 풀이 👉
+>
+> 유나 풀이 👉
 
+2️⃣ 백준 2146번 다리 만들기 [DFS](https://www.acmicpc.net/problem/2146)
+
+> 동민 풀이 👉
+>
+> 유나 풀이 👉
+
+3️⃣ 프로그래머스 2018 KAKAO BLIND RECRUITMENT [N진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
+
+> 동민 풀이 👉
+>
+> 유나 풀이 👉
 
 
 
