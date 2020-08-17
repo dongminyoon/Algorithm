@@ -105,7 +105,7 @@
 
 1️⃣ 백준 2206번 벽부수고 이동하기 [BFS](https://www.acmicpc.net/problem/2206)
 
-> 동민 풀이 👉
+> 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%EC%9C%A4%EB%8F%99%EB%AF%BC/JAVA/Algorithm/src/BFS/BAEKJOON2206.java)
 >
 > 유나 풀이 👉
 
