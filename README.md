@@ -111,7 +111,7 @@
 
 2️⃣ 백준 2146번 다리 만들기 [DFS](https://www.acmicpc.net/problem/2146)
 
-> 동민 풀이 👉
+> 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%EC%9C%A4%EB%8F%99%EB%AF%BC/JAVA/Algorithm/src/BFS/BAEKJOON2146.java)
 >
 > 유나 풀이 👉
 
