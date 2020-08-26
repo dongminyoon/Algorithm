@@ -13,6 +13,7 @@
 		9D57C85524939B890082A2FD /* BlindBlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85224939B890082A2FD /* BlindBlink.swift */; };
 		9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */; };
 		9D57C85A24939BC00082A2FD /* NewsClustring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85924939BC00082A2FD /* NewsClustring.swift */; };
+		9D6412F524F662390099B4CF /* NNotationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6412F424F662390099B4CF /* NNotationGame.swift */; };
 		9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74F41624940B5700F5C757 /* FalilPercentage.swift */; };
 		9D8574CC24B31CAD009BA1FA /* BoostCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8574CB24B31CAD009BA1FA /* BoostCamp.swift */; };
 		9D94BDF524C054ED0027B9BF /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94BDF424C054ED0027B9BF /* Problem1.swift */; };
@@ -53,6 +54,7 @@
 		9D57C85224939B890082A2FD /* BlindBlink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlindBlink.swift; path = "Algorithm/2020 카카오 블라인드/BlindBlink.swift"; sourceTree = SOURCE_ROOT; };
 		9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsFourBlock.swift; path = "Algorithm/2018 카카오 블라인드/FriendsFourBlock.swift"; sourceTree = SOURCE_ROOT; };
 		9D57C85924939BC00082A2FD /* NewsClustring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsClustring.swift; sourceTree = "<group>"; };
+		9D6412F424F662390099B4CF /* NNotationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNotationGame.swift; sourceTree = "<group>"; };
 		9D74F41624940B5700F5C757 /* FalilPercentage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalilPercentage.swift; sourceTree = "<group>"; };
 		9D8574CB24B31CAD009BA1FA /* BoostCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostCamp.swift; sourceTree = "<group>"; };
 		9D94BDF424C054ED0027B9BF /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */,
+				9D6412F424F662390099B4CF /* NNotationGame.swift */,
 			);
 			name = "2018 카카오 블라인드";
 			path = "2020 카카오 블라인드";
@@ -268,6 +271,7 @@
 				9DA80442248E2AE0003826B9 /* HotelRoom.swift in Sources */,
 				9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */,
 				9DA8044A248E2C6E003826B9 /* BAEKJOON15659.swift in Sources */,
+				9D6412F524F662390099B4CF /* NNotationGame.swift in Sources */,
 				9D8574CC24B31CAD009BA1FA /* BoostCamp.swift in Sources */,
 				9DA8044C248E2D1C003826B9 /* BAEKJOON1759.swift in Sources */,
 				9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */,
