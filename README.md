@@ -117,7 +117,7 @@
 
 3️⃣ 프로그래머스 2018 KAKAO BLIND RECRUITMENT [N진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
 
-> 동민 풀이 👉
+> 동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%EC%9C%A4%EB%8F%99%EB%AF%BC/SWIFT/Algorithm/Algorithm/2020%20%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EB%B8%94%EB%9D%BC%EC%9D%B8%EB%93%9C/NNotationGame.swift)
 >
 > 유나 풀이 👉
 
