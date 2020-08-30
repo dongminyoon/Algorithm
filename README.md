@@ -121,6 +121,22 @@
 >
 > 유나 풀이 👉 [클릭](https://github.com/yunakim2/Algorithm_Java/blob/master/Programmers/level2/level2_n%EC%A7%84%EC%88%98%EA%B2%8C%EC%9E%84.java)
 
+***5주차 (2020.08.31 ~ 2020.09.04)***
 
+1️⃣ 백준 1003번 피보나치 함수 [DP](https://www.acmicpc.net/problem/1003)
 
+>동민 풀이 👉 
+>
+>유나 풀이 👉 
 
+2️⃣ 백준 1932번 정수삼각형 [DP](https://www.acmicpc.net/problem/1932)
+
+>동민 풀이 👉 
+>
+>유나 풀이 👉 
+
+3️⃣ 프로그래머스 2020 KAKAO BLIND RECRUITMENT [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
+
+> 동민 풀이 👉 
+>
+> 유나 풀이 👉 
