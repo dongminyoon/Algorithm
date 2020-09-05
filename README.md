@@ -127,13 +127,13 @@
 
 >동민 풀이 👉 
 >
->유나 풀이 👉 
+>유나 풀이 👉 [클릭](https://github.com/yunakim2/Algorithm_Java/blob/master/Baekjoon/DP/B_1003.java)
 
 2️⃣ 백준 1932번 정수삼각형 [DP](https://www.acmicpc.net/problem/1932)
 
 >동민 풀이 👉 
 >
->유나 풀이 👉 
+>유나 풀이 👉 [클릭](https://github.com/yunakim2/Algorithm_Java/blob/master/Baekjoon/DP/B_1932.java)
 
 3️⃣ 프로그래머스 2020 KAKAO BLIND RECRUITMENT [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
 
