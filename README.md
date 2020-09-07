@@ -125,7 +125,7 @@
 
 1️⃣ 백준 1003번 피보나치 함수 [DP](https://www.acmicpc.net/problem/1003)
 
->동민 풀이 👉 
+>동민 풀이 👉 [클릭](https://github.com/dongminyoon/Algorithm/blob/master/%EC%9C%A4%EB%8F%99%EB%AF%BC/JAVA/Algorithm/src/DynamicProgramming/BAEKJOON1003.java)
 >
 >유나 풀이 👉 [클릭](https://github.com/yunakim2/Algorithm_Java/blob/master/Baekjoon/DP/B_1003.java)
 
