@@ -32,6 +32,9 @@
 		9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */; };
 		9DA80452248E2D8F003826B9 /* BAEKJOON11724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */; };
 		9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD329EE2495BB5600E19669 /* CandidateKey.swift */; };
+		9DD7AD26250C8D5800742F25 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD25250C8D5800742F25 /* Problem.swift */; };
+		9DD7AD3B250CA6C100742F25 /* aawo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD3A250CA6C100742F25 /* aawo.swift */; };
+		9DD7AD3D250CB6B200742F25 /* 3Probl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD3C250CB6B200742F25 /* 3Probl.swift */; };
 		9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +77,9 @@
 		9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2309.swift; sourceTree = "<group>"; };
 		9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON11724.swift; sourceTree = "<group>"; };
 		9DD329EE2495BB5600E19669 /* CandidateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateKey.swift; sourceTree = "<group>"; };
+		9DD7AD25250C8D5800742F25 /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		9DD7AD3A250CA6C100742F25 /* aawo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aawo.swift; sourceTree = "<group>"; };
+		9DD7AD3C250CB6B200742F25 /* 3Probl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Probl.swift; sourceTree = "<group>"; };
 		9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +146,7 @@
 		9DA8042B248E27EA003826B9 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				9DD7AD24250C8D4400742F25 /* 2021 카카오 블라인드 채용 */,
 				9D94BDF324C054D90027B9BF /* 2020 카카오 코드스쿼드 전형 */,
 				9D8574CA24B31C48009BA1FA /* 부스트캠프 코딩테스트 */,
 				9D16A45024938D1E005E691E /* 2019 카카오 블라인드 */,
@@ -197,6 +204,17 @@
 				9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */,
 			);
 			path = BAEKJOON;
+			sourceTree = "<group>";
+		};
+		9DD7AD24250C8D4400742F25 /* 2021 카카오 블라인드 채용 */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7AD25250C8D5800742F25 /* Problem.swift */,
+				9DD7AD3A250CA6C100742F25 /* aawo.swift */,
+				9DD7AD3C250CB6B200742F25 /* 3Probl.swift */,
+			);
+			name = "2021 카카오 블라인드 채용";
+			path = "2021 카카오 블라인드 채용";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +284,7 @@
 				9D9676BA249BB98A0042BF0A /* SearchPath.swift in Sources */,
 				9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */,
 				9D57C85A24939BC00082A2FD /* NewsClustring.swift in Sources */,
+				9DD7AD3B250CA6C100742F25 /* aawo.swift in Sources */,
 				9DA80452248E2D8F003826B9 /* BAEKJOON11724.swift in Sources */,
 				9DA8043E248E2A93003826B9 /* PickDoll.swift in Sources */,
 				9DA80442248E2AE0003826B9 /* HotelRoom.swift in Sources */,
@@ -273,11 +292,13 @@
 				9DA8044A248E2C6E003826B9 /* BAEKJOON15659.swift in Sources */,
 				9D6412F524F662390099B4CF /* NNotationGame.swift in Sources */,
 				9D8574CC24B31CAD009BA1FA /* BoostCamp.swift in Sources */,
+				9DD7AD26250C8D5800742F25 /* Problem.swift in Sources */,
 				9DA8044C248E2D1C003826B9 /* BAEKJOON1759.swift in Sources */,
 				9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */,
 				9D57C85524939B890082A2FD /* BlindBlink.swift in Sources */,
 				9DA80448248E2BCA003826B9 /* BAEKJOON1260.swift in Sources */,
 				9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */,
+				9DD7AD3D250CB6B200742F25 /* 3Probl.swift in Sources */,
 				9DA80440248E2AC0003826B9 /* Tuple.swift in Sources */,
 				9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */,
 				9D2598D324B7602C00E17711 /* BlockGame.swift in Sources */,

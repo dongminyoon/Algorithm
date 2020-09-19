@@ -10,57 +10,60 @@ import Foundation
 
 struct StringProblem {
     static func solution(_ s:String) -> Int {
-        var stack: [String] = []
-        var tempPattern: String = ""
+        var resultCount: [Int] = []
+
+        if s.count <= 1 { return s.count }
         
-        var compressedByPattern: [String] = [s]
+        for length in 1...s.count/2 {
+            print(divide(of: s, by: length))
+            resultCount.append(divide(of: s, by: length).count)
+        }
         
-        for compressLength in 1...s.count/2 {
-            for index in 0..<s.count {
-                let stringIndex = s.index(s.startIndex, offsetBy: index)
-                tempPattern += String(s[stringIndex])
-                if tempPattern.count == compressLength {
-                    stack.append(tempPattern)
-                    tempPattern = ""
-                }
-            }
-            
-            if tempPattern != "" {
-                stack.append(tempPattern)
-                tempPattern = ""
-            }
-            
-            var compressString = ""
-            var index: Int = 0
-            var sameCount: Int = 1
-            while index < stack.count-1 {
-                if stack[index] == stack[index+1] {
-                    sameCount += 1
-                    if index+1 == stack.count-1 {
-                        compressString += "\(sameCount)\(stack[index])"
-                        break
-                    }
+        guard let min = resultCount.min() else { return -1 }
+        return min
+    }
+    
+    static func divide(of s: String, by count: Int) -> String {
+        if s.count <= 1 { return s }
+        
+        var pattern = s[s.startIndex..<s.index(s.startIndex, offsetBy: count)]
+        var result: String = ""
+        var index: Int = count
+        var sameCount: Int = 1
+        
+        while index < s.count {
+            let crtIndex = s.index(s.startIndex, offsetBy: index)
+            if index+count >= s.count {
+                if pattern == s[crtIndex..<s.endIndex] {
+                    result += "\(sameCount+1)" + String(pattern)
                 } else {
-                    if sameCount == 1 {
-                        compressString += stack[index]
-                        if index+1 == stack.count-1 {
-                            compressString += stack[index+1]
-                            break
-                        }
+                    if sameCount != 1 {
+                        result += "\(sameCount)" + String(pattern) + String(s[crtIndex..<s.endIndex])
+                    } else {
+                        result += String(pattern) + String(s[crtIndex..<s.endIndex])
                     }
-                    else { compressString += "\(sameCount)\(stack[index])" }
-                    sameCount = 1
                 }
-                index += 1
+                break
             }
-            compressedByPattern.append(compressString)
-            stack = []
+            let lastIndex = s.index(crtIndex, offsetBy: count)
+            
+            if s[crtIndex..<lastIndex] == pattern {
+                sameCount += 1
+            } else {
+                if sameCount == 1 {
+                    result += String(pattern)
+                } else {
+                    result += "\(sameCount)" + String(pattern)
+                }
+                pattern = s[crtIndex..<lastIndex]
+                sameCount = 1
+            }
+            
+            index += count
         }
         
         
-        var countByPattern: [Int] = []
-        countByPattern.append(s.count)
-        for compressed in compressedByPattern { countByPattern.append(compressed.count) }
-        return countByPattern.sorted(by: <)[0]
+        
+        return result
     }
 }

@@ -8,6 +8,6 @@
 
 import Foundation
 
-let result = NNotationGame.solution(16, 16, 2, 2)
+let result = StringProblem.solution("a")
 
 print(result)
