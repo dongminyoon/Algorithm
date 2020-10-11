@@ -17,7 +17,7 @@ public class StockPrice {
         for (int i = 0; i < prices.length; i++) {
             int curPrice = prices[i];
 
-            for (int j = 0; j < stack.size(); j++) {
+            for (int j = stack.size()-1; j >= 0; j--) {
                 answer[stack.get(j)] += 1;
                 if (curPrice < prices[stack.get(j)]) {
                     stack.remove(j);
