@@ -17,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BAEKJOON2217.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greedy/BAEKJOON2217.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BAEKJOON2839.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BAEKJOON2839.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queue/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -109,6 +97,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestAlbum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Hash/BestAlbum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/Queue/FunctionDevelop.java" />
         <option value="$PROJECT_DIR$/src/Queue/Truck.java" />
         <option value="$PROJECT_DIR$/src/Queue/Printer.java" />
+        <option value="$PROJECT_DIR$/src/Hash/BestAlbum.java" />
       </list>
     </option>
   </component>
@@ -329,15 +328,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Printer">
-    <configuration name="FunctionDevelop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BestAlbum">
+    <configuration name="BestAlbum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="Hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Queue.FunctionDevelop" />
+      <option name="MAIN_CLASS_NAME" value="Hash.BestAlbum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -349,14 +348,14 @@
       <module name="Algorithm" />
       <envs />
     </configuration>
-    <configuration name="NotCompletePlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionDevelop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Hash.*" />
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Hash.NotCompletePlayer" />
+      <option name="MAIN_CLASS_NAME" value="Queue.FunctionDevelop" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -519,19 +518,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NotCompletePlayer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StockPrice" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FunctionDevelop" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Truck" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Printer" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StockPrice" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FunctionDevelop" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Truck" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Printer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BestAlbum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Printer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Truck" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FunctionDevelop" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StockPrice" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NotCompletePlayer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BestAlbum" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Printer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Truck" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FunctionDevelop" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StockPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +560,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1817279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1817279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -590,13 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/simulation/BAEKJOON2455.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BAEKJOON1463.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -984,6 +976,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hash/BestAlbum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
