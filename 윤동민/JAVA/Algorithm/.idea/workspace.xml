@@ -60,11 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreSpicy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoreSpicy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queue/MoreSpicy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchPrime.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BruteForce/SearchPrime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-282">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -129,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BruteForce/BAEKJOON1987.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/BAEKJOON1987.java" />
         <option value="$PROJECT_DIR$/src/Kakao2018Blind/DartGame.java" />
         <option value="$PROJECT_DIR$/src/Kakao2018Blind/SecretMap.java" />
@@ -180,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/Queue/DiskController.java" />
         <option value="$PROJECT_DIR$/src/Queue/DoublePriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/Queue/MoreSpicy.java" />
+        <option value="$PROJECT_DIR$/src/BruteForce/SearchPrime.java" />
       </list>
     </option>
   </component>
@@ -613,13 +623,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BFS/BAEKJOON2178.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BruteForce/BAEKJOON2217.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -900,7 +903,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -984,8 +987,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queue/MoreSpicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BruteForce/SearchPrime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
