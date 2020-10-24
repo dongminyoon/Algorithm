@@ -19,6 +19,7 @@ public class MockExam {
             map.put(i+1, count);
         }
 
+
         ArrayList<Integer> temp = new ArrayList<>();
         for (Map.Entry<Integer, Integer> entry : map.entrySet())
             if (entry.getValue() == max) temp.add(entry.getKey());
