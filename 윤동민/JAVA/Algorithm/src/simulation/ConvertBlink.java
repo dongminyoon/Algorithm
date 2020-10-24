@@ -3,7 +3,6 @@ package simulation;
 public class ConvertBlink {
     public String solution(String p) {
         if (p.length() == 0) return "";
-
         return dfs(p);
     }
 
