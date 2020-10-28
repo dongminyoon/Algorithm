@@ -18,7 +18,7 @@ struct SkillTree {
         for each in skill_trees {
             if check(each) { answer += 1 }
         }
-        
+     
         return answer
     }
 

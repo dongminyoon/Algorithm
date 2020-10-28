@@ -32,6 +32,7 @@
 		9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8044D248E2D48003826B9 /* BAEKJOON2178.swift */; };
 		9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */; };
 		9DA80452248E2D8F003826B9 /* BAEKJOON11724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */; };
+		9DC7DC1F2549977C00B09339 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7DC1E2549977C00B09339 /* QuickSort.swift */; };
 		9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD329EE2495BB5600E19669 /* CandidateKey.swift */; };
 		9DD3FCD6254834DE003DB798 /* SkillTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3FCD5254834DE003DB798 /* SkillTree.swift */; };
 		9DD7AD26250C8D5800742F25 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD25250C8D5800742F25 /* Problem.swift */; };
@@ -79,6 +80,7 @@
 		9DA8044D248E2D48003826B9 /* BAEKJOON2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2178.swift; sourceTree = "<group>"; };
 		9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2309.swift; sourceTree = "<group>"; };
 		9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON11724.swift; sourceTree = "<group>"; };
+		9DC7DC1E2549977C00B09339 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		9DD329EE2495BB5600E19669 /* CandidateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateKey.swift; sourceTree = "<group>"; };
 		9DD3FCD5254834DE003DB798 /* SkillTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTree.swift; sourceTree = "<group>"; };
 		9DD7AD25250C8D5800742F25 /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		9DA8042B248E27EA003826B9 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				9DC7DC1D2549976700B09339 /* 기본 알고리즘 */,
 				9DD3FCD4254834CA003DB798 /* 프로그래머스 */,
 				9D300324251FBD6200EAC348 /* 2020 카카오 인턴십 */,
 				9DD7AD24250C8D4400742F25 /* 2021 카카오 블라인드 채용 */,
@@ -219,6 +222,15 @@
 				9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */,
 			);
 			path = BAEKJOON;
+			sourceTree = "<group>";
+		};
+		9DC7DC1D2549976700B09339 /* 기본 알고리즘 */ = {
+			isa = PBXGroup;
+			children = (
+				9DC7DC1E2549977C00B09339 /* QuickSort.swift */,
+			);
+			name = "기본 알고리즘";
+			path = "기본 알고리즘";
 			sourceTree = "<group>";
 		};
 		9DD3FCD4254834CA003DB798 /* 프로그래머스 */ = {
@@ -314,6 +326,7 @@
 				9DA8043E248E2A93003826B9 /* PickDoll.swift in Sources */,
 				9DA80442248E2AE0003826B9 /* HotelRoom.swift in Sources */,
 				9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */,
+				9DC7DC1F2549977C00B09339 /* QuickSort.swift in Sources */,
 				9DA8044A248E2C6E003826B9 /* BAEKJOON15659.swift in Sources */,
 				9D6412F524F662390099B4CF /* NNotationGame.swift in Sources */,
 				9D8574CC24B31CAD009BA1FA /* BoostCamp.swift in Sources */,
