@@ -33,6 +33,9 @@
 		9DA80450248E2D6B003826B9 /* BAEKJOON2309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */; };
 		9DA80452248E2D8F003826B9 /* BAEKJOON11724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */; };
 		9DC7DC1F2549977C00B09339 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7DC1E2549977C00B09339 /* QuickSort.swift */; };
+		9DC7DC272549D98900B09339 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7DC262549D98900B09339 /* MergeSort.swift */; };
+		9DC7DC2A2549E1BE00B09339 /* CopyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7DC292549E1BE00B09339 /* CopyMap.swift */; };
+		9DC7DC2D254A11F400B09339 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7DC2C254A11F400B09339 /* Cache.swift */; };
 		9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD329EE2495BB5600E19669 /* CandidateKey.swift */; };
 		9DD3FCD6254834DE003DB798 /* SkillTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD3FCD5254834DE003DB798 /* SkillTree.swift */; };
 		9DD7AD26250C8D5800742F25 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD25250C8D5800742F25 /* Problem.swift */; };
@@ -81,6 +84,9 @@
 		9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2309.swift; sourceTree = "<group>"; };
 		9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON11724.swift; sourceTree = "<group>"; };
 		9DC7DC1E2549977C00B09339 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		9DC7DC262549D98900B09339 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		9DC7DC292549E1BE00B09339 /* CopyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyMap.swift; sourceTree = "<group>"; };
+		9DC7DC2C254A11F400B09339 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		9DD329EE2495BB5600E19669 /* CandidateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateKey.swift; sourceTree = "<group>"; };
 		9DD3FCD5254834DE003DB798 /* SkillTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTree.swift; sourceTree = "<group>"; };
 		9DD7AD25250C8D5800742F25 /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
@@ -206,6 +212,7 @@
 			children = (
 				9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */,
 				9D6412F424F662390099B4CF /* NNotationGame.swift */,
+				9DC7DC2C254A11F400B09339 /* Cache.swift */,
 			);
 			name = "2018 카카오 블라인드";
 			path = "2020 카카오 블라인드";
@@ -228,6 +235,8 @@
 			isa = PBXGroup;
 			children = (
 				9DC7DC1E2549977C00B09339 /* QuickSort.swift */,
+				9DC7DC262549D98900B09339 /* MergeSort.swift */,
+				9DC7DC292549E1BE00B09339 /* CopyMap.swift */,
 			);
 			name = "기본 알고리즘";
 			path = "기본 알고리즘";
@@ -311,12 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC7DC272549D98900B09339 /* MergeSort.swift in Sources */,
 				9D16A45224938D33005E691E /* OpenChatting.swift in Sources */,
 				9D94BE0A24C06AEA0027B9BF /* Problem2.swift in Sources */,
 				9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */,
 				9DA8043C248E2A0D003826B9 /* IllegalUser.swift in Sources */,
 				9D94BDF524C054ED0027B9BF /* Problem1.swift in Sources */,
 				9D9CA09624B9ECC700B50A80 /* KeyAndLock.swift in Sources */,
+				9DC7DC2A2549E1BE00B09339 /* CopyMap.swift in Sources */,
 				9D9676BA249BB98A0042BF0A /* SearchPath.swift in Sources */,
 				9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */,
 				9DD3FCD6254834DE003DB798 /* SkillTree.swift in Sources */,
@@ -330,6 +341,7 @@
 				9DA8044A248E2C6E003826B9 /* BAEKJOON15659.swift in Sources */,
 				9D6412F524F662390099B4CF /* NNotationGame.swift in Sources */,
 				9D8574CC24B31CAD009BA1FA /* BoostCamp.swift in Sources */,
+				9DC7DC2D254A11F400B09339 /* Cache.swift in Sources */,
 				9DD7AD26250C8D5800742F25 /* Problem.swift in Sources */,
 				9DA8044C248E2D1C003826B9 /* BAEKJOON1759.swift in Sources */,
 				9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */,

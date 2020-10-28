@@ -8,5 +8,6 @@
 
 import Foundation
 
+var copyMap = CopyMap(array: ["a", "b", "c", "k", "z"])
 
-
+print(copyMap.map(transform: { $0 + "a" }))
