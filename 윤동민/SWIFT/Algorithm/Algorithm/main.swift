@@ -8,6 +8,6 @@
 
 import Foundation
 
-var copyMap = CopyMap(array: ["a", "b", "c", "k", "z"])
+var customOp: CustomOptional<Int> = CustomOptional.some(value: 10)
 
-print(copyMap.map(transform: { $0 + "a" }))
+print(String(UnicodeScalar(65)))

@@ -8,13 +8,15 @@
 
 import Foundation
 
-struct {
+struct AA {
     func solution(_ cacheSize:Int, _ cities:[String]) -> Int {
         var answer: Int = 0
         
         if cacheSize == 0 { return cities.count * 5 }
         
         var cache: [String] = []
+        
+        
         
         for city in cities {
             let lowerCity = city.lowercased()
