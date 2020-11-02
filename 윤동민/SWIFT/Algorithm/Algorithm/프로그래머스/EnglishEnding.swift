@@ -21,15 +21,14 @@ struct EnglishEnding {
         var index: Int = 0
         var preChar: String = ""
         while index < words.count {
-            let lastIndex = words[index].index(words[index].startIndex, offsetBy: words[index].count)
-            preChar = String(words[index][lastIndex])
-            print(preChar)
-            
-            if index == 0 {
-                
-            }
             guard let curTurn = dic[(index%n)+1] else { return [] }
             dic.updateValue(curTurn+1, forKey: (index%n)+1)
+            
+            if index != 0 {
+                if String(words[index][words[index].startIndex]) != preChar {
+                    return [(index%n)+1, curTurn+1]
+                }
+            }
             
             if isUseWord.contains(words[index]) {
                 return [(index%n)+1, curTurn+1]
@@ -37,6 +36,8 @@ struct EnglishEnding {
                 isUseWord.append(words[index])
             }
             
+            let lastIndex = words[index].index(words[index].startIndex, offsetBy: words[index].count-1)
+            preChar = String(words[index][lastIndex])
             index += 1
         }
         
