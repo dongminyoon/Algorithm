@@ -11,6 +11,7 @@ import Foundation
 enum CustomOptional<Wrapped> {
     case some(value: Wrapped)
     case none
-    
 }
+
+
 
