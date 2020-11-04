@@ -12,6 +12,9 @@ var customOp: CustomOptional<Int> = CustomOptional.some(value: 10)
 
 
 
+let aa: String = "1"
+
+
 
 
 
