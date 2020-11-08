@@ -11,3 +11,16 @@ import Foundation
 struct VisitLength {
     
 }
+
+
+struct CustomArray<T> {
+    var arr: [T] = []
+    
+    func map<U>(transform: (T) -> U) -> [U] {
+        var mapArr: [U] = []
+        arr.forEach { each in
+            mapArr.append(transform(each))
+        }
+        return mapArr
+    }
+}
