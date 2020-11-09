@@ -9,32 +9,27 @@
 import Foundation
 
 struct HotelRoom {
-    static var nextRoom: [Int64: Int64] = [:]
+    var dic: [Int64: Int64] = [:]
 
-    static func solution(_ k:Int64, _ room_number:[Int64]) -> [Int64] {
-        var set_Room_Number: [Int64] = []
+    func solution(_ k:Int64, _ room_number:[Int64]) -> [Int64] {
+        var answer: [Int64] = []
         
-        for want_Number in room_number {
-            if nextRoom[want_Number] == nil {
-                set_Room_Number.append(want_Number)
-                nextRoom.updateValue(findNextRoom(roomNumber: want_Number+1), forKey: want_Number)
-            } else {
-                let searchRoom = findNextRoom(roomNumber: want_Number)
-                set_Room_Number.append(searchRoom)
-                nextRoom.updateValue(searchRoom+1, forKey: searchRoom)
-            }
+        room_number.forEach {
+            room in
+            answer.append(search(room))
         }
         
-        return set_Room_Number
+        return answer
     }
 
-    static func findNextRoom(roomNumber: Int64) -> Int64 {
-        if nextRoom[roomNumber] == nil {
-            return roomNumber
-        } else {
-            let availableRoom = findNextRoom(roomNumber: roomNumber+1)
-            return availableRoom
+    func search(_ room: Int64) -> Int64 {
+        if dic[room] == nil {
+            dic.updateValue(room+1, forKey: room)
+            return room
         }
+        
+        var emptyRoom = search(dic[room]!)
+        dic.updateValue(emptyRoom+1, forKey: room)
+        return emptyRoom
     }
-
 }
