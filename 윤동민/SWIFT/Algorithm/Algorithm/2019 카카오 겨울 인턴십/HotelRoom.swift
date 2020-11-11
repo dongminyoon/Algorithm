@@ -11,7 +11,7 @@ import Foundation
 struct HotelRoom {
     var dic: [Int64: Int64] = [:]
 
-    func solution(_ k:Int64, _ room_number:[Int64]) -> [Int64] {
+    mutating func solution(_ k:Int64, _ room_number:[Int64]) -> [Int64] {
         var answer: [Int64] = []
         
         room_number.forEach {
@@ -22,7 +22,7 @@ struct HotelRoom {
         return answer
     }
 
-    func search(_ room: Int64) -> Int64 {
+    mutating func search(_ room: Int64) -> Int64 {
         if dic[room] == nil {
             dic.updateValue(room+1, forKey: room)
             return room

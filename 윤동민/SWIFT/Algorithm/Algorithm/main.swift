@@ -8,12 +8,7 @@
 
 import Foundation
 
-var customOp: CustomOptional<Int> = CustomOptional.some(value: 10)
-
-
-
-let aa: String = "1"
-
+print(SearchLyrics.solution(["frodo", "front", "frost", "frozen", "frame", "kakao"], ["fro??", "????o", "fr???", "fro???", "pro?"]))
 
 
 

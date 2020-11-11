@@ -16,6 +16,7 @@
 		9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */; };
 		9D57C85A24939BC00082A2FD /* NewsClustring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57C85924939BC00082A2FD /* NewsClustring.swift */; };
 		9D6412F524F662390099B4CF /* NNotationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6412F424F662390099B4CF /* NNotationGame.swift */; };
+		9D6B0573255ABD9800FE63C9 /* SearchLyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B0572255ABD9800FE63C9 /* SearchLyrics.swift */; };
 		9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74F41624940B5700F5C757 /* FalilPercentage.swift */; };
 		9D8574CC24B31CAD009BA1FA /* BoostCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8574CB24B31CAD009BA1FA /* BoostCamp.swift */; };
 		9D94BDF524C054ED0027B9BF /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94BDF424C054ED0027B9BF /* Problem1.swift */; };
@@ -69,6 +70,7 @@
 		9D57C85724939BAC0082A2FD /* FriendsFourBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsFourBlock.swift; path = "Algorithm/2018 카카오 블라인드/FriendsFourBlock.swift"; sourceTree = SOURCE_ROOT; };
 		9D57C85924939BC00082A2FD /* NewsClustring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsClustring.swift; sourceTree = "<group>"; };
 		9D6412F424F662390099B4CF /* NNotationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNotationGame.swift; sourceTree = "<group>"; };
+		9D6B0572255ABD9800FE63C9 /* SearchLyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLyrics.swift; sourceTree = "<group>"; };
 		9D74F41624940B5700F5C757 /* FalilPercentage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalilPercentage.swift; sourceTree = "<group>"; };
 		9D8574CB24B31CAD009BA1FA /* BoostCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostCamp.swift; sourceTree = "<group>"; };
 		9D94BDF424C054ED0027B9BF /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				9D57C85924939BC00082A2FD /* NewsClustring.swift */,
 				9D57C85124939B890082A2FD /* StringProblem.swift */,
 				9D9CA09524B9ECC700B50A80 /* KeyAndLock.swift */,
+				9D6B0572255ABD9800FE63C9 /* SearchLyrics.swift */,
 			);
 			name = "2020 카카오 블라인드";
 			path = "카카오2018블라인드";
@@ -340,6 +343,7 @@
 			files = (
 				9DC97500254C318600488196 /* CustomOptional.swift in Sources */,
 				9DC7DC272549D98900B09339 /* MergeSort.swift in Sources */,
+				9D6B0573255ABD9800FE63C9 /* SearchLyrics.swift in Sources */,
 				9D16A45224938D33005E691E /* OpenChatting.swift in Sources */,
 				9D94BE0A24C06AEA0027B9BF /* Problem2.swift in Sources */,
 				9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */,
