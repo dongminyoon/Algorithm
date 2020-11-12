@@ -15,11 +15,9 @@ struct SearchLyrics {
         
         words.forEach { word in
             if dic[word.count] == nil {
-                let trie = Trie()
-                dic.updateValue(trie, forKey: word.count)
+                dic[word.count] = Trie()
                 
-                let reverseTrie = Trie()
-                reverseDic.updateValue(reverseTrie, forKey: word.count)
+                reverseDic[word.count] = Trie()
             }
             
             dic[word.count]?.insert(word)
@@ -49,52 +47,41 @@ struct SearchLyrics {
     }
 }
 
-
 class Trie {
-    var root: [String: Nodes]
-    var count: Int = 0
+    var root: Nodes
     
     init() {
-        root = [:]
+        root = Nodes(value: "")
     }
     
     func insert(_ word: String) {
-        count += 1
-        var character = String(word[word.startIndex])
-        if root[character] == nil { root.updateValue(Nodes(value: character),
-                                                     forKey: character)
-            }
-        
-        var curNode = root[character]!
-        curNode.count += 1
-        for index in 1..<word.count {
-            character = String(word[word.index(word.startIndex, offsetBy: index)])
-            
-            if curNode.child[character] == nil {
-                curNode.child.updateValue(Nodes(value: character),
-                                          forKey: character)
-            }
-            curNode = curNode.child[character]!
+        var curNode = root
+        for index in 0..<word.count {
             curNode.count += 1
+            let character = String(word[word.index(word.startIndex, offsetBy: index)])
+            if curNode.child[character] == nil {
+                curNode.child[character] = Nodes(value: character)
+            }
+            
+            curNode = curNode.child[character]!
         }
     }
     
-    func search(_ word: String) -> Int {
-        var character = String(word[word.startIndex])
-        if character == "?" { return count }
-        guard var curNode = root[character] else { return 0 }
+    func search(_ query: String) -> Int {
+        if query.isEmpty { return 0 }
         
-        for index in 1..<word.count {
-            character = String(word[word.index(word.startIndex, offsetBy: index)])
-            if character == "?" { return curNode.count }
+        var curNode = root
+        for index in 0..<query.count {
+            let character = String(query[query.index(query.startIndex, offsetBy: index)])
             
+            if character == "?" { return curNode.count }
             if curNode.child[character] == nil { return 0 }
+            
             curNode = curNode.child[character]!
         }
         
         return curNode.count
     }
-    
 }
 
 class Nodes {
@@ -112,3 +99,46 @@ class Nodes {
         child = [:]
     }
 }
+
+
+//class Trie {
+//    var root: [String: Nodes]
+//    var count: Int = 0
+//
+//    init() {
+//        root = [:]
+//    }
+//
+//    func insert(_ word: String) {
+//        count += 1
+//        var character = String(word[word.startIndex])
+//        if root[character] == nil { root[character] = Nodes(value: character) }
+//
+//        var curNode = root[character]!
+//        curNode.count += 1
+//        for index in 1..<word.count {
+//            character = String(word[word.index(word.startIndex, offsetBy: index)])
+//
+//            if curNode.child[character] == nil { curNode.child[character] = Nodes(value: character) }
+//            curNode = curNode.child[character]!
+//            curNode.count += 1
+//        }
+//    }
+//
+//    func search(_ word: String) -> Int {
+//        var character: String = String(word[word.startIndex])
+//        if character == "?" { return count }
+//        guard var curNode = root[character] else { return 0 }
+//
+//        for index in 1..<word.count {
+//            character = String(word[word.index(word.startIndex, offsetBy: index)])
+//            if character == "?" { return curNode.count }
+//
+//            if curNode.child[character] == nil { return 0 }
+//            curNode = curNode.child[character]!
+//        }
+//
+//        return curNode.count
+//    }
+//
+//}
