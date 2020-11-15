@@ -8,10 +8,4 @@
 
 import Foundation
 
-print(SearchLyrics.solution(["frodo", "front", "frost", "frozen", "frame", "kakao"], ["fro??", "????o", "fr???", "fro???", "pro?"]))
-
-
-
-
-
-
+CheckWall.solution(12, [1, 5, 6, 10], [1, 2, 3, 4])
