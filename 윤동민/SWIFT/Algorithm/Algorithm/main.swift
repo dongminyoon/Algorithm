@@ -8,4 +8,5 @@
 
 import Foundation
 
-CheckWall.solution(12, [1, 5, 6, 10], [1, 2, 3, 4])
+MenuRenewer.solution(["XYZ", "XWY", "WXA"], [2,3,4])
+
