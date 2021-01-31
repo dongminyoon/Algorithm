@@ -8,5 +8,5 @@
 
 import Foundation
 
-MenuRenewer.solution(["XYZ", "XWY", "WXA"], [2,3,4])
+
 

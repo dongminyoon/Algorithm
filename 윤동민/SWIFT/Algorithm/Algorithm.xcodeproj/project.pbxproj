@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D092CCD25611DBF00908BAE /* CheckWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D092CCC25611DBF00908BAE /* CheckWall.swift */; };
+		9D097BAA25C6FBCC003999EA /* MaxExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D097BA925C6FBCC003999EA /* MaxExpression.swift */; };
 		9D16A45224938D33005E691E /* OpenChatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D16A45124938D33005E691E /* OpenChatting.swift */; };
 		9D2598D324B7602C00E17711 /* BlockGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2598D224B7602C00E17711 /* BlockGame.swift */; };
 		9D2E4C572552F8EF00416041 /* VisitLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E4C562552F8EF00416041 /* VisitLength.swift */; };
@@ -64,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		9D092CCC25611DBF00908BAE /* CheckWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckWall.swift; sourceTree = "<group>"; };
+		9D097BA925C6FBCC003999EA /* MaxExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxExpression.swift; sourceTree = "<group>"; };
 		9D16A45124938D33005E691E /* OpenChatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenChatting.swift; sourceTree = "<group>"; };
 		9D2598D224B7602C00E17711 /* BlockGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockGame.swift; sourceTree = "<group>"; };
 		9D2E4C562552F8EF00416041 /* VisitLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitLength.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				9D300325251FBD7000EAC348 /* KeyPad.swift */,
+				9D097BA925C6FBCC003999EA /* MaxExpression.swift */,
 			);
 			name = "2020 카카오 인턴십";
 			path = "2020 카카오 인턴십";
@@ -382,6 +385,7 @@
 				9D6412F524F662390099B4CF /* NNotationGame.swift in Sources */,
 				9D8574CC24B31CAD009BA1FA /* BoostCamp.swift in Sources */,
 				9DC7DC2D254A11F400B09339 /* Cache.swift in Sources */,
+				9D097BAA25C6FBCC003999EA /* MaxExpression.swift in Sources */,
 				9DD7AD26250C8D5800742F25 /* Problem.swift in Sources */,
 				9DA8044C248E2D1C003826B9 /* BAEKJOON1759.swift in Sources */,
 				9D74F41724940B5700F5C757 /* FalilPercentage.swift in Sources */,
