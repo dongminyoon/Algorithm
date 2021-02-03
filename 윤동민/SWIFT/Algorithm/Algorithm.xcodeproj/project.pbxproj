@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D01458C25CAF18B004BEDAD /* MakeMaxNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01458B25CAF18B004BEDAD /* MakeMaxNumber.swift */; };
 		9D092CCD25611DBF00908BAE /* CheckWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D092CCC25611DBF00908BAE /* CheckWall.swift */; };
 		9D097BAA25C6FBCC003999EA /* MaxExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D097BA925C6FBCC003999EA /* MaxExpression.swift */; };
 		9D16A45224938D33005E691E /* OpenChatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D16A45124938D33005E691E /* OpenChatting.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D01458B25CAF18B004BEDAD /* MakeMaxNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMaxNumber.swift; sourceTree = "<group>"; };
 		9D092CCC25611DBF00908BAE /* CheckWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckWall.swift; sourceTree = "<group>"; };
 		9D097BA925C6FBCC003999EA /* MaxExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxExpression.swift; sourceTree = "<group>"; };
 		9D16A45124938D33005E691E /* OpenChatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenChatting.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				9DD3FCD5254834DE003DB798 /* SkillTree.swift */,
 				9DAEB57D25504950003C01D6 /* EnglishEnding.swift */,
 				9D2E4C562552F8EF00416041 /* VisitLength.swift */,
+				9D01458B25CAF18B004BEDAD /* MakeMaxNumber.swift */,
 			);
 			name = "프로그래머스";
 			path = "프로그래머스";
@@ -397,6 +400,7 @@
 				9D300326251FBD7000EAC348 /* KeyPad.swift in Sources */,
 				9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */,
 				9D2E4C572552F8EF00416041 /* VisitLength.swift in Sources */,
+				9D01458C25CAF18B004BEDAD /* MakeMaxNumber.swift in Sources */,
 				9D2598D324B7602C00E17711 /* BlockGame.swift in Sources */,
 				9D57C85424939B890082A2FD /* StringProblem.swift in Sources */,
 				9DA8042D248E27EA003826B9 /* main.swift in Sources */,
