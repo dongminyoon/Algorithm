@@ -50,6 +50,7 @@
 		9DD7AD3B250CA6C100742F25 /* aawo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD3A250CA6C100742F25 /* aawo.swift */; };
 		9DD7AD3D250CB6B200742F25 /* 3Probl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD3C250CB6B200742F25 /* 3Probl.swift */; };
 		9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */; };
+		CE1BBFCE25D5846900463F63 /* CorrectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +110,7 @@
 		9DD7AD3A250CA6C100742F25 /* aawo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aawo.swift; sourceTree = "<group>"; };
 		9DD7AD3C250CB6B200742F25 /* 3Probl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Probl.swift; sourceTree = "<group>"; };
 		9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLive.swift; sourceTree = "<group>"; };
+		CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +290,7 @@
 				9DAEB57D25504950003C01D6 /* EnglishEnding.swift */,
 				9D2E4C562552F8EF00416041 /* VisitLength.swift */,
 				9D01458B25CAF18B004BEDAD /* MakeMaxNumber.swift */,
+				CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */,
 			);
 			name = "프로그래머스";
 			path = "프로그래머스";
@@ -363,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DC97500254C318600488196 /* CustomOptional.swift in Sources */,
+				CE1BBFCE25D5846900463F63 /* CorrectSquare.swift in Sources */,
 				9DC7DC272549D98900B09339 /* MergeSort.swift in Sources */,
 				9D6B0573255ABD9800FE63C9 /* SearchLyrics.swift in Sources */,
 				9D16A45224938D33005E691E /* OpenChatting.swift in Sources */,
