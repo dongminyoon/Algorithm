@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9591CD7D-2E63-4341-9B76-4C24B0521F73"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8C50009-ACF0-490F-A030-5532162884C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/2021 &#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1107;&#x1173;&#x11af;&#x1105;&#x1161;&#x110b;&#x1175;&#x11ab;&#x1103;&#x1173;/NewerIDRecommend.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "recommendID(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33D9DF6F-1071-435C-AA7E-7A95EA95AB58"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/2021 &#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1107;&#x1173;&#x11af;&#x1105;&#x1161;&#x110b;&#x1175;&#x11ab;&#x1103;&#x1173;/NewerIDRecommend.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "recommendID(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "252B53CD-B3E0-4D57-8F24-66E2B551075A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/2021 &#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1107;&#x1173;&#x11af;&#x1105;&#x1161;&#x110b;&#x1175;&#x11ab;&#x1103;&#x1173;/NewerIDRecommend.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "recommendID(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB7F4E42-7AF3-4833-9870-804C190FCAAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/2021 &#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1107;&#x1173;&#x11af;&#x1105;&#x1161;&#x110b;&#x1175;&#x11ab;&#x1103;&#x1173;/NewerIDRecommend.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "recommendID(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9668646-3660-49E9-9F2B-F16E1A61B1C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/2021 &#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1107;&#x1173;&#x11af;&#x1105;&#x1161;&#x110b;&#x1175;&#x11ab;&#x1103;&#x1173;/NewerIDRecommend.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "recommendID(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D81D69B6-1B74-4C64-8B8F-FF130484662C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithm/2021 &#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1107;&#x1173;&#x11af;&#x1105;&#x1161;&#x110b;&#x1175;&#x11ab;&#x1103;&#x1173;/NewerIDRecommend.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "recommendID(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
