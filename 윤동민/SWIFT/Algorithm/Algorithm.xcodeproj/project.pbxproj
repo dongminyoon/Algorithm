@@ -51,6 +51,7 @@
 		9DD7AD3D250CB6B200742F25 /* 3Probl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD3C250CB6B200742F25 /* 3Probl.swift */; };
 		9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */; };
 		CE1BBFCE25D5846900463F63 /* CorrectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */; };
+		CE69C6E525F3756900454255 /* NewerIDRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C6E425F3756900454255 /* NewerIDRecommend.swift */; };
 		CED56F2325D970FF00597C4F /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED56F2225D970FF00597C4F /* H-Index.swift */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +113,7 @@
 		9DD7AD3C250CB6B200742F25 /* 3Probl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Probl.swift; sourceTree = "<group>"; };
 		9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLive.swift; sourceTree = "<group>"; };
 		CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectSquare.swift; sourceTree = "<group>"; };
+		CE69C6E425F3756900454255 /* NewerIDRecommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewerIDRecommend.swift; sourceTree = "<group>"; };
 		CED56F2225D970FF00597C4F /* H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -280,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				9DCEB91725C45BC900109F31 /* MenuRenewer.swift */,
+				CE69C6E425F3756900454255 /* NewerIDRecommend.swift */,
 			);
 			name = "2021 카카오 블라인드";
 			path = "2021 카카오 블라인드";
@@ -409,6 +412,7 @@
 				9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */,
 				9D2E4C572552F8EF00416041 /* VisitLength.swift in Sources */,
 				9D01458C25CAF18B004BEDAD /* MakeMaxNumber.swift in Sources */,
+				CE69C6E525F3756900454255 /* NewerIDRecommend.swift in Sources */,
 				9D2598D324B7602C00E17711 /* BlockGame.swift in Sources */,
 				9D57C85424939B890082A2FD /* StringProblem.swift in Sources */,
 				9DA8042D248E27EA003826B9 /* main.swift in Sources */,
