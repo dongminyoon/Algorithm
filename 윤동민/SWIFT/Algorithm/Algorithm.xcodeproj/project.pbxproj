@@ -52,6 +52,7 @@
 		9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */; };
 		CE1BBFCE25D5846900463F63 /* CorrectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */; };
 		CE69C6E525F3756900454255 /* NewerIDRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C6E425F3756900454255 /* NewerIDRecommend.swift */; };
+		CE69C6E925F4C28600454255 /* BAEKJOON1920.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C6E825F4C28600454255 /* BAEKJOON1920.swift */; };
 		CED56F2325D970FF00597C4F /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED56F2225D970FF00597C4F /* H-Index.swift */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +115,7 @@
 		9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLive.swift; sourceTree = "<group>"; };
 		CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectSquare.swift; sourceTree = "<group>"; };
 		CE69C6E425F3756900454255 /* NewerIDRecommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewerIDRecommend.swift; sourceTree = "<group>"; };
+		CE69C6E825F4C28600454255 /* BAEKJOON1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON1920.swift; sourceTree = "<group>"; };
 		CED56F2225D970FF00597C4F /* H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -254,6 +256,7 @@
 				9DA8044D248E2D48003826B9 /* BAEKJOON2178.swift */,
 				9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */,
 				9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */,
+				CE69C6E825F4C28600454255 /* BAEKJOON1920.swift */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				CED56F2325D970FF00597C4F /* H-Index.swift in Sources */,
 				9D092CCD25611DBF00908BAE /* CheckWall.swift in Sources */,
 				9D9CA09624B9ECC700B50A80 /* KeyAndLock.swift in Sources */,
+				CE69C6E925F4C28600454255 /* BAEKJOON1920.swift in Sources */,
 				9DC7DC2A2549E1BE00B09339 /* CopyMap.swift in Sources */,
 				9D9676BA249BB98A0042BF0A /* SearchPath.swift in Sources */,
 				9D57C85824939BAC0082A2FD /* FriendsFourBlock.swift in Sources */,

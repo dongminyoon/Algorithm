@@ -8,3 +8,8 @@
 
 import Foundation
 
+let a = BAEKJOON1920()
+
+a.solution()
+
+
