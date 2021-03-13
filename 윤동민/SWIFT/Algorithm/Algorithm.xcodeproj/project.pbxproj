@@ -51,6 +51,7 @@
 		9DD7AD3D250CB6B200742F25 /* 3Probl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7AD3C250CB6B200742F25 /* 3Probl.swift */; };
 		9DD91B0524A4CD4A00F35CAF /* FoodLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */; };
 		CE1BBFCE25D5846900463F63 /* CorrectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */; };
+		CE38C7DB25FCFCB200DA364D /* BAEKJOON2805.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C7DA25FCFCB200DA364D /* BAEKJOON2805.swift */; };
 		CE69C6E525F3756900454255 /* NewerIDRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C6E425F3756900454255 /* NewerIDRecommend.swift */; };
 		CE69C6E925F4C28600454255 /* BAEKJOON1920.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C6E825F4C28600454255 /* BAEKJOON1920.swift */; };
 		CED56F2325D970FF00597C4F /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED56F2225D970FF00597C4F /* H-Index.swift */; };
@@ -114,6 +115,7 @@
 		9DD7AD3C250CB6B200742F25 /* 3Probl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Probl.swift; sourceTree = "<group>"; };
 		9DD91B0424A4CD4A00F35CAF /* FoodLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLive.swift; sourceTree = "<group>"; };
 		CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectSquare.swift; sourceTree = "<group>"; };
+		CE38C7DA25FCFCB200DA364D /* BAEKJOON2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2805.swift; sourceTree = "<group>"; };
 		CE69C6E425F3756900454255 /* NewerIDRecommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewerIDRecommend.swift; sourceTree = "<group>"; };
 		CE69C6E825F4C28600454255 /* BAEKJOON1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON1920.swift; sourceTree = "<group>"; };
 		CED56F2225D970FF00597C4F /* H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 				9DA8044F248E2D6B003826B9 /* BAEKJOON2309.swift */,
 				9DA80451248E2D8F003826B9 /* BAEKJOON11724.swift */,
 				CE69C6E825F4C28600454255 /* BAEKJOON1920.swift */,
+				CE38C7DA25FCFCB200DA364D /* BAEKJOON2805.swift */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				9DA80448248E2BCA003826B9 /* BAEKJOON1260.swift in Sources */,
 				9DD329EF2495BB5600E19669 /* CandidateKey.swift in Sources */,
 				9DD7AD3D250CB6B200742F25 /* 3Probl.swift in Sources */,
+				CE38C7DB25FCFCB200DA364D /* BAEKJOON2805.swift in Sources */,
 				9DA80440248E2AC0003826B9 /* Tuple.swift in Sources */,
 				9D300326251FBD7000EAC348 /* KeyPad.swift in Sources */,
 				9DA8044E248E2D48003826B9 /* BAEKJOON2178.swift in Sources */,
