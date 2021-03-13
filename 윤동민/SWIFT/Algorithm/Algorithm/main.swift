@@ -7,3 +7,5 @@
 //
 
 import Foundation
+
+BAEKJOON2805().solution()
