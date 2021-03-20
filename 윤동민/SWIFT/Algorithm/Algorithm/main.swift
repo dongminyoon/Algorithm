@@ -8,4 +8,4 @@
 
 import Foundation
 
-BAEKJOON1654().solution()
+BAEKJOON10815().solution()
