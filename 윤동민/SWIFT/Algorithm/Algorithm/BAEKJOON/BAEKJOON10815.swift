@@ -8,6 +8,30 @@
 
 import Foundation
 
+struct BAEKJOON10815_HASH {
+    func solution() {
+        let N           = Int(readLine() ?? "0") ?? 0
+        let cards       = readLine()!.split(separator: " ").compactMap({ Int($0) })
+        
+        let M           = Int(readLine() ?? "0") ?? 0
+        let searchCards = readLine()!.split(separator: " ").compactMap({ Int($0) })
+        
+        var cardHash: [Int: Bool] = [:]
+        cards.forEach { card in
+            if cardHash.keys.contains(card) { return }
+            cardHash.updateValue(true, forKey: card)
+        }
+        
+        var answer = ""
+        searchCards.forEach { searchCard in
+            if cardHash.keys.contains(searchCard) { answer += "1" + " " }
+            else { answer += "0" + " " }
+        }
+        
+        print(answer)
+    }
+}
+
 struct BAEKJOON10815 {
     func solution() {
         let N           = Int(readLine() ?? "0") ?? 0
