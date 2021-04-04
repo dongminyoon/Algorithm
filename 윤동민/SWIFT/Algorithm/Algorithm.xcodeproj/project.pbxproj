@@ -56,6 +56,7 @@
 		CE1BBFCE25D5846900463F63 /* CorrectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */; };
 		CE38C7DB25FCFCB200DA364D /* BAEKJOON2805.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C7DA25FCFCB200DA364D /* BAEKJOON2805.swift */; };
 		CE41A20825FDC35700368CC0 /* BAEKJOON1654.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41A20725FDC35600368CC0 /* BAEKJOON1654.swift */; };
+		CE420314261A0935004245DE /* BEAKJOON7562.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE420313261A0935004245DE /* BEAKJOON7562.swift */; };
 		CE69C6E525F3756900454255 /* NewerIDRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C6E425F3756900454255 /* NewerIDRecommend.swift */; };
 		CE69C6E925F4C28600454255 /* BAEKJOON1920.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69C6E825F4C28600454255 /* BAEKJOON1920.swift */; };
 		CED56F2325D970FF00597C4F /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED56F2225D970FF00597C4F /* H-Index.swift */; };
@@ -124,6 +125,7 @@
 		CE1BBFCD25D5846900463F63 /* CorrectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectSquare.swift; sourceTree = "<group>"; };
 		CE38C7DA25FCFCB200DA364D /* BAEKJOON2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON2805.swift; sourceTree = "<group>"; };
 		CE41A20725FDC35600368CC0 /* BAEKJOON1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON1654.swift; sourceTree = "<group>"; };
+		CE420313261A0935004245DE /* BEAKJOON7562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BEAKJOON7562.swift; sourceTree = "<group>"; };
 		CE69C6E425F3756900454255 /* NewerIDRecommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewerIDRecommend.swift; sourceTree = "<group>"; };
 		CE69C6E825F4C28600454255 /* BAEKJOON1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAEKJOON1920.swift; sourceTree = "<group>"; };
 		CED56F2225D970FF00597C4F /* H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 				CE0712992605CADA0009F420 /* BAEKJOON10815.swift */,
 				CE07129C2605D1BC0009F420 /* BAEKJOON10816.swift */,
 				CE07129F260781DC0009F420 /* BAEKJOON2110.swift */,
+				CE420313261A0935004245DE /* BEAKJOON7562.swift */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE420314261A0935004245DE /* BEAKJOON7562.swift in Sources */,
 				9DC97500254C318600488196 /* CustomOptional.swift in Sources */,
 				CE1BBFCE25D5846900463F63 /* CorrectSquare.swift in Sources */,
 				9DC7DC272549D98900B09339 /* MergeSort.swift in Sources */,
